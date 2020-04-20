@@ -9,7 +9,7 @@ node {
          cd target
          cp ../src/main/resources/web.config web.config
          cp spring-boot-0.0.1-SNAPSHOT.jar app.jar 
-         zip app.jar web.config
+         zip todo.jar app.jar web.config
       '''
    }
    stage('deploy') {
