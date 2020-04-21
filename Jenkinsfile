@@ -8,7 +8,8 @@ node {
          mvn clean package
          cd target
          cp ../src/main/resources/web.config web.config
-         cp spring-boot-0.0.1-SNAPSHOT.jar app.jar 
+         cp spring-boot-0.0.1-SNAPSHOT.jar app.jar
+         
          zip todo.zip app.jar web.config
       '''
    }
